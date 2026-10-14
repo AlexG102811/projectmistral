@@ -1,0 +1,20 @@
+{
+  "name": "quiz-app",
+  "version": "1.0.0",
+  "description": "High school AI-assisted quiz app: HTML/CSS/JS frontend, Node.js 24 + Express 5, PostgreSQL (Replit).",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "seed": "node seed.js",
+    "init-db": "node db-init.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "express-session": "^1.18.2",
+    "pg": "^8.16.0"
+  }
+}
